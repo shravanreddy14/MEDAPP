@@ -1,0 +1,29 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+       <center> <h1>Form to add medicines</h1> </center>
+       <br>
+       <br>
+        <form class ="form-group" action="/meds/add" method="post">
+                <div class="form-group">
+                    <label for="medicine">Medicine Name</label>
+                    <input type="text" class="form-control" id="medicine" placeholder="Medicine Name">
+                </div>
+
+                <div class="form-group">
+                    <label for="count">Count</label>
+                    <input type="text" class="form-control" id="count" placeholder="Count">
+                </div>
+
+                <div class="form-group">
+                    <label for="brand">Brand</label>
+                    <input type="text" class="form-control" id="brand" placeholder="Brand">
+                </div>  
+                <br><br>
+              <center>  <button class="btn btn-default" type="submit">ADD</button></center>  
+        </form>
+
+    </body>
+</html>
