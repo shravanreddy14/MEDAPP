@@ -1,2 +1,4 @@
 # MEDAPP
-This is a web application which is used to store, delete, update all the information related to medicines
+A simple web application which is used to store,update,delete the medical records.
+Technology Stacks: Nodejs, ExpressJs, Postgresql
+
